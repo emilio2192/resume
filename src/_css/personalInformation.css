@@ -1,0 +1,48 @@
+#personal-information-container{
+    float: left;
+    width: 94%;
+    height: 250px;
+    border-bottom: 3px solid #EBEBEB;
+    margin-left: 3%;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+#personal-information-container > .profilePicture{
+    float:left;
+    background-image: url('/src/_css/_img/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 250px;
+    background-color:#000;
+}
+
+#personal-information-container > .information-container{
+    float: left;
+    height: 100%;
+    width: 77%;
+    margin-right: 2%;
+    border-left: 2px solid #EBEBEB;
+    margin-left: 2%;
+    padding-left:2%;
+}
+#personal-information-container > .information-container > .col{
+    float:left;
+    width:50%;
+    font-size:18px;
+    color:#BBB;
+    padding-top:10px;
+}
+#personal-information-container > .information-container > .col > label{
+    color:#A1A1A1;;
+    font-weight: 700;
+    font-size:18px;
+    padding-right: 5px;
+    cursor:pointer;
+}
+#personal-information-container > .information-container > .col > a{
+    color: #737373;
+    text-decoration:none;
+    font-weight: 900;
+}
